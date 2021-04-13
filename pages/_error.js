@@ -13,12 +13,12 @@ const MyError = ({ statusCode, hasGetInitialPropsRun, err }) => {
   }
 
   return (
-    <>
+    <div>
       <h1>Error</h1>
       <h2>{statusCode}</h2>
       <p>hasGetInitialPropsRun: {hasGetInitialPropsRun}</p>
       <pre>{err}</pre>
-    </>
+    </div>
   );
 };
 
